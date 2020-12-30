@@ -12,7 +12,40 @@ body {
 
 }
 
+@media only screen and (max-width: 600px)  {
 
+	body {
+		font-size: 1em !important;
+		} 
+
+	nav {
+		font-size: 1em !important;
+		} 
+
+	h2{
+		font-size: 0.9em !important;
+		} 
+
+	a{
+		font-size: 0.7em !important;
+		}
+
+	.container{
+		font-size: 1em !important;
+		}
+
+	.sully{
+		font-size: 1em !important;
+		} 
+
+	.entry {
+		font-size: 1em !important;
+	}
+
+	p {
+		font-size: 1em !important;
+	}
+}
 
 
 /*****HOME CINEMA BANNER*****/
