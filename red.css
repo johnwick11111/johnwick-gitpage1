@@ -12,6 +12,49 @@ body {
 
 }
 
+
+@media only screen and (max-width: 600px)  {
+
+	body {
+		font-size: 1em !important;
+		} 
+
+	nav {
+		font-size: 1em !important;
+		} 
+
+	h2{
+		font-size: 0.9em !important;
+		} 
+
+	a{
+		font-size: 0.7em !important;
+		}
+
+	.container{
+		font-size: 1em !important;
+		}
+
+	.sully{
+		font-size: 1em !important;
+		} 
+
+	.entry {
+		font-size: 1em !important;
+	}
+
+	p {
+		font-size: 1em !important;
+	}
+}
+
+
+
+
+
+
+/*****HOME CINEMA BANNER*****/
+
 nav {
 	/*position: fixed;*/
 	background-image: url("daredevil.png");
@@ -31,6 +74,11 @@ nav {
 	box-shadow: 5px 5px 5px white;
 }
 
+
+
+
+/*****CURRENTLY PLAYING BANNER*****/
+
 h2{
 	position: relative;
 	left: 25%;
@@ -47,6 +95,13 @@ h2{
 	box-shadow: 5px 5px 5px white;
 
 }
+
+
+
+
+
+/*****THEME CHANGE BUTTON*****/
+
 
 a {
 	position: relative;
@@ -71,6 +126,12 @@ a:hover{
 	background-color: white;
 	box-shadow: 3px 3px 3px red;
 }
+
+
+
+
+/*****VIDEO PLAYERS & NAME*****/
+
 
 .container {
 	display: flex;

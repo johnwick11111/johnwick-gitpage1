@@ -12,6 +12,11 @@ body {
 
 }
 
+
+
+
+/*****HOME CINEMA BANNER*****/
+
 nav {
 	background-image: url("cover.jpg");
 	background-attachment: fixed;
@@ -30,6 +35,12 @@ nav {
 	box-shadow: 5px 5px 5px blue;
 }
 
+
+
+
+/*****CURRENTLY PLAYING BANNER*****/
+
+
 h2{
 
 	position: relative;
@@ -47,6 +58,11 @@ h2{
 	box-shadow: 5px 5px 5px blue;
 
 }
+
+
+
+
+/*****THEME CHANGE BUTTON*****/
 
 a {
 	position: relative;
@@ -71,6 +87,11 @@ a:hover{
 	background-color: white;
 	box-shadow: 3px 3px 3px white;
 }
+
+
+
+
+/*****VIDEO PLAYERS & NAME*****/
 
 .container {
 	display: flex;
